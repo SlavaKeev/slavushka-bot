@@ -3,8 +3,9 @@ import requests
 
 app = Flask(__name__)
 
-BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
-CHAT_ID = "YOUR_TELEGRAM_CHAT_ID"
+BOT_TOKEN = "123456789:AAExmpl3_TVOY_TOKEN_OT_BOTFATHER"
+CHAT_ID = "987654321"
+
 
 @app.route("/", methods=["POST"])
 def alert():
